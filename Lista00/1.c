@@ -1,6 +1,6 @@
 /*
 01. Suponha que existam 02 vetores A e B do tipo inteiro com 05 elementos inteiros
-cada. Elabore um algoritmo que construa um vetor C a partir da junção de A e B. 
+cada. Elabore um algoritmo que construa um vetor C a partir da junção de A e B.
 */
 
 
@@ -14,18 +14,15 @@ int main (){
 
     //memcpy(c, a, sizeof(a));
     //memcpy(c + 5, b, sizeof(b));
-    
+
     for(int j = 0; j < 10 ; j++){
     	if(j < 5){
     		c[j] = a[j];
 		} else {
 			c[j] = b[j-5];
 		}
+		printf("%d ", c[j]);
 	}
-
-    for(int i = 0 ; i < 10 ; i++){
-        printf("%d ", c[i]);
-    }
 
     printf("\n");
     return 0;
