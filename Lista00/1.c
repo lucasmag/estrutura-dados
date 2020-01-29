@@ -1,3 +1,9 @@
+/*
+01. Suponha que existam 02 vetores A e B do tipo inteiro com 05 elementos inteiros
+cada. Elabore um algoritmo que construa um vetor C a partir da junção de A e B. 
+*/
+
+
 #include <stdio.h>
 #include <string.h>
 

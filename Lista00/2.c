@@ -1,3 +1,10 @@
+/*
+02. Considere duas matrizes A e B com dimensões 5X3. Elabore um algoritmo que
+construa uma matriz C de dimensão 2X15, de modo que a primeira linha de C seja
+preenchida com os elementos de A e a segunda linha de C seja preenchida com os
+elementos de B. 
+*/
+
 #include <stdio.h>
 #include <string.h>
 
@@ -17,7 +24,7 @@ int main (){
     int c[2][15];
     int x = 0;
 
-
+	//Preenche a primeira linha da matriz c
     for(int i = 0 ; i < 5 ; i++){
       for (int j = 0; j < 3; j++) {
         c[0][x] = a[i][j];
@@ -27,7 +34,8 @@ int main (){
     }
 
     x = 0;
-
+	
+	//Preenche a segunda linha da matriz c
     for(int i = 0 ; i < 5 ; i++){
       for (int j = 0; j < 3; j++) {
         c[1][x] = b[i][j];

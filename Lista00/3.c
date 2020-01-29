@@ -1,3 +1,8 @@
+/*
+03. Escreva um programa que, leia um determinado número N e informe os dois
+antecessores de N e os dois sucessores de N. 
+*/
+
 #include <stdio.h>
 #include <string.h>
 
