@@ -1,3 +1,5 @@
+// Solution of URI 1176 - Fibonacci Array
+
 #include <stdio.h>
 
 int main () {
