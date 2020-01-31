@@ -12,9 +12,6 @@ int main (){
     int b[5] = {5, 15, 25, 35, 45};
     int c[10];
 
-    //memcpy(c, a, sizeof(a));
-    //memcpy(c + 5, b, sizeof(b));
-
     for(int j = 0; j < 10 ; j++){
     	if(j < 5){
     		c[j] = a[j];
